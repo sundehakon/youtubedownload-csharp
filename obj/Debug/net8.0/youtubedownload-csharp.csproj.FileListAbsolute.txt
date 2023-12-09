@@ -3,3 +3,17 @@
 /Users/sundehakon/Documents/youtubedownload-csharp/obj/Debug/net8.0/youtubedownload-csharp.AssemblyInfo.cs
 /Users/sundehakon/Documents/youtubedownload-csharp/obj/Debug/net8.0/youtubedownload-csharp.csproj.CoreCompileInputs.cache
 /Users/sundehakon/Documents/youtubedownload-csharp/obj/Debug/net8.0/youtubedownload-csharp.sourcelink.json
+/Users/sundehakon/Documents/youtubedownload-csharp/obj/Debug/net8.0/youtubedownload-csharp.csproj.AssemblyReference.cache
+/Users/sundehakon/Documents/youtubedownload-csharp/bin/Debug/net8.0/youtubedownload-csharp
+/Users/sundehakon/Documents/youtubedownload-csharp/bin/Debug/net8.0/youtubedownload-csharp.deps.json
+/Users/sundehakon/Documents/youtubedownload-csharp/bin/Debug/net8.0/youtubedownload-csharp.runtimeconfig.json
+/Users/sundehakon/Documents/youtubedownload-csharp/bin/Debug/net8.0/youtubedownload-csharp.dll
+/Users/sundehakon/Documents/youtubedownload-csharp/bin/Debug/net8.0/youtubedownload-csharp.pdb
+/Users/sundehakon/Documents/youtubedownload-csharp/bin/Debug/net8.0/AngleSharp.dll
+/Users/sundehakon/Documents/youtubedownload-csharp/bin/Debug/net8.0/YoutubeExplode.dll
+/Users/sundehakon/Documents/youtubedownload-csharp/obj/Debug/net8.0/youtubedownload-csharp.csproj.CopyComplete
+/Users/sundehakon/Documents/youtubedownload-csharp/obj/Debug/net8.0/youtubedownload-csharp.dll
+/Users/sundehakon/Documents/youtubedownload-csharp/obj/Debug/net8.0/refint/youtubedownload-csharp.dll
+/Users/sundehakon/Documents/youtubedownload-csharp/obj/Debug/net8.0/youtubedownload-csharp.pdb
+/Users/sundehakon/Documents/youtubedownload-csharp/obj/Debug/net8.0/youtubedownload-csharp.genruntimeconfig.cache
+/Users/sundehakon/Documents/youtubedownload-csharp/obj/Debug/net8.0/ref/youtubedownload-csharp.dll

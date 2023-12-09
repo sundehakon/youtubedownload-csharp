@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("youtubedownload-csharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f85f87acc6add7f63e59e4edef3341058b959638")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e4c18fab89a39b75cea7469fac3b8a2e11e8f0b")]
 [assembly: System.Reflection.AssemblyProductAttribute("youtubedownload-csharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("youtubedownload-csharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

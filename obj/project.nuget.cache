@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "njCXtLspta5giQ9nCOGzV7/oE/fIsRlhWn1UJTbS52xfMh9d7NAEQMK3Xe7bRd8OXzB1LbtgbP51zbfFP1usJA==",
+  "dgSpecHash": "0t6EjS0fGrOyvbTNKmYpRrLDUHw9PPMPp4o9/vwncKISblLrYHP9tmBiexZSRsV0K5HoGC3Gs/PFwp+eQgx3tA==",
   "success": true,
   "projectFilePath": "/Users/sundehakon/Documents/youtubedownload-csharp/youtubedownload-csharp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/sundehakon/.nuget/packages/anglesharp/1.0.7/anglesharp.1.0.7.nupkg.sha512",
+    "/Users/sundehakon/.nuget/packages/system.text.encoding.codepages/8.0.0/system.text.encoding.codepages.8.0.0.nupkg.sha512",
+    "/Users/sundehakon/.nuget/packages/youtubeexplode/6.3.9/youtubeexplode.6.3.9.nupkg.sha512"
+  ],
   "logs": []
 }

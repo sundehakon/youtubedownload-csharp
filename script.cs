@@ -1,8 +1,8 @@
 using System;
 using System.IO;
 using System.Threading.Tasks;
+using System.Linq;
 using YoutubeExplode;
-using YoutubeExplode.Models.MediaStreams;
 
 namespace YoutubeDownloader
 {
@@ -13,13 +13,28 @@ namespace YoutubeDownloader
             var youtube = new YoutubeClient();
             Console.Write("Enter the YouTube video ID, this can be found in the link after the 'v =': ");
             string videoid = Console.ReadLine();
-            var streamManifest = await youtube.Videos.Streams.GetManifestAsync(videoid);
-            var streamInfo = streamManifest.GetAudioOnly().WithHighestBitrate();
-            Console.Write("Enter video title: ");
-            string videoTitle = Console.ReadLine();
-            var fileExtension = streamInfo.Container.GetFileExtension();
-            var output = Path.Combine(Path.GetTempPath(), $"{videoTitle}.{fileExtension}");
-            await youtube.Videos.Streams.DownloadAsync(streamInfo, output);
+            if (videoid != null)
+            {
+                var streamManifest = await youtube.Videos.Streams.GetManifestAsync(videoid);
+                if (streamManifest != null)
+                {
+                    var streamInfo = streamManifest.GetAudioOnlyStreams().OrderByDescending(s => s.Bitrate).FirstOrDefault();
+                    if (streamInfo != null)
+                    {
+                        Console.Write("Enter video title: ");
+                        string videoTitle = Console.ReadLine();
+                        if (videoTitle != null)
+                        {
+                            var fileExtension = streamInfo.Container.Name;
+                            var output = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), $"{videoTitle}.{fileExtension}");
+                            await youtube.Videos.Streams.DownloadAsync(streamInfo, output);
+                        }
+                    }
+                }
+            }
         }
     }
 }
+
+
+
