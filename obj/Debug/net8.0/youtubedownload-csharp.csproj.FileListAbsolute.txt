@@ -1,0 +1,5 @@
+/Users/sundehakon/Documents/youtubedownload-csharp/obj/Debug/net8.0/youtubedownload-csharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sundehakon/Documents/youtubedownload-csharp/obj/Debug/net8.0/youtubedownload-csharp.AssemblyInfoInputs.cache
+/Users/sundehakon/Documents/youtubedownload-csharp/obj/Debug/net8.0/youtubedownload-csharp.AssemblyInfo.cs
+/Users/sundehakon/Documents/youtubedownload-csharp/obj/Debug/net8.0/youtubedownload-csharp.csproj.CoreCompileInputs.cache
+/Users/sundehakon/Documents/youtubedownload-csharp/obj/Debug/net8.0/youtubedownload-csharp.sourcelink.json
